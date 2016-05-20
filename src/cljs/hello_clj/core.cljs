@@ -4,7 +4,7 @@
 
 (enable-console-print!)
 
-(defonce app-state (atom {:text "Hello Chestnut!"}))
+(defonce app-state (atom {:text "Hello World!"}))
 
 (defn root-component [app owner]
   (reify
