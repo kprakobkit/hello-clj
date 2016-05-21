@@ -4,7 +4,7 @@
 
 (enable-console-print!)
 
-(defonce app-state (atom {:text "Hello World! This app was deployed by a bash script. Adding some more text. And a little bit more from local, with automatic deploy. Again. Please work."}))
+(defonce app-state (atom {:text "Hello World! This app was deployed by a bash script. Adding some more text. And a little bit more from local, with automatic deploy. Again. Please work. I think it will work."}))
 
 (defn root-component [app owner]
   (reify
